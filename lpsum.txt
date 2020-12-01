@@ -1,0 +1,8 @@
+Procedure 9.1. Configure a firewall to allow NFS
+
+Allow TCP and UDP port 2049 for NFS.
+Allow TCP and UDP port 111 (rpcbind/sunrpc).
+Allow the TCP and UDP port specified with MOUNTD_PORT="port"
+Allow the TCP and UDP port specified with STATD_PORT="port"
+Allow the TCP port specified with LOCKD_TCPPORT="port"
+Allow the UDP port specified with LOCKD_UDPPORT="port"
